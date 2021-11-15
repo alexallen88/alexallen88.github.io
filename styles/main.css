@@ -1,0 +1,23 @@
+body {
+    background-color: deeppink;
+    text-align: center;
+    font-family: 'Road Rage', cursive;
+}
+
+h1 {
+    font-size: 50pt;
+    margin-bottom: 500px;
+}
+
+p {
+    font-size: 20pt;
+}
+
+.red-text {
+    color: red;
+}
+
+#name {
+    font-size: 200pt;
+    color: goldenrod;
+}
