@@ -5,19 +5,24 @@ body {
 }
 
 h1 {
+    background-color: whitesmoke;
+    color: darkslategrey;
     font-size: 50pt;
     margin-bottom: 500px;
 }
 
 p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gold;
     font-size: 20pt;
+    
 }
 
-.red-text {
+red-text{
     color: red;
 }
 
 #name {
     font-size: 200pt;
-    color: goldenrod;
+    color: rgb(22, 4, 11);
 }
