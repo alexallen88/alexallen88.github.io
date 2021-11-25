@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Technical Blog - JS Fundamentals</title>
+<link rel="icon" type="image/x-icon" href="../styles/kiwifruit.jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="../blog/Identity-Values.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Identity, Strengths & Values</a>
+    <a href="../blog/Learning-Plan.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Learning Plan</a>
+    <a href="../blog/Tech-Blog.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Technical Blog</a>
+    <a href="../blog/Emotional-Intelligence.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Emotional Intelligence</a>
+    <a href="../blog/javascript-dom.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Technical Blog - JS Fundamentals</a>
+  </div>
+</div>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:80px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">JavaScript and its relationship to HTML and CSS</h1>
+      <p>HTML, CSS, and JavaScript are all part of the same web development eco-system and need to work together to maximize the potential of the modern web.<br>
+        HTML stands for Hypertext Markup Language is used to describe its content and layout a basic rough structure of a website. HTML is like the frame and content of a house.<br><br>
+        <img src="../styles/html.jpeg" alt="HTML"
+        style="width: 30%;"><br><br>
+
+        CSS - Cascading Stylesheets is a styling language that is used to shape and style website content in terms of colors,
+        typography, spacing, borders, and more. CSS is the paint and the rounded edges of a house that makes visually appealing
+        and comfortable to live in.<br><br>
+        <img src="../styles/css.png" alt="CSS"
+        style="width: 50%;"><br><br>
+
+        JavaScript is a dynamic programming language that allows you to make websites interactive, and reactive. JavaScript is
+        the electricity and water supply that makes a modern home a modern home. JavaScrip is what makes the elements of a website respond to user input.<br><br>
+        <img src="../styles/javascript.png" alt="JavaScript"
+        style="width: 40%;">
+      
+      
+      </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img src="../styles/html_css_javascript_infographic.png" alt="web dev"
+        style="width: 100%;"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img src="../styles/javascript css html.png" alt="web dev"
+        style="width: 100%;"></p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Control flow and loops, arrays and objects</h1>
+      <p>In programming, loops are used to repeat a block of code.
+      
+      For example, if you want to show a message 100 times, then you can use a loop. It's just a simple example; you can
+      achieve much more with loops.<br><br>
+      <img src="../styles/for loop example.PNG" alt="loop"
+      style="width: 60%;"><br><br>
+      An array is an object that can store multiple values at once. Here are examples of various arrays:<br>
+      <img src="../styles/array.PNG" alt="array"
+      style="width: 50%;"><br><br>
+      Here is an example of a JavaScript object:<br>
+      <img src="../styles/object.PNG" alt="object"
+      style="width: 50%;">
+    </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img src="../styles/javascript-for-loop.png" alt="web dev"
+        style="width: 50%;"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img src="../styles/if else if else.PNG" alt="web dev"
+        style="width: 100%;"></p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Functions and why they are useful</h1>
+      <p>A function is a block of code that performs a specific task. Dividing a complex problem into smaller chunks makes your
+      program easy to understand and reusable. JavaScript also has a huge number of inbuilt functions. For example,
+      Math.sqrt() is a function to calculate the square root of a number.You can reuse code: Define the code once, and use it
+      many times.You can use the same code many times
+      with different arguments, to produce different results.<br>
+      <img src="../styles/function.PNG" alt="function"
+      style="width: 60%;">
+    
+    </p>
+    </div>
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img src="../styles/javascript-function example.png" alt="function"
+        style="width:100%;"></p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img src="../styles/javascript.imagen.jpg" alt="JavaScript"
+        style="width:100%;"></p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">The DOM and DevTools</h1>
+      <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs
+      can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way,
+      programming languages can interact with the page.
+      
+      A web page is a document that can be either displayed in the browser window or as the HTML source. In both cases, it is
+      the same document but the Document Object Model (DOM) representation allows it to be manipulated. As an object-oriented
+      representation of the web page, it can be modified with a scripting language such as JavaScript.<br><br>
+    
+      Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help you
+      edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build better websites, faster.<br>
+      <img src="../styles/chromedevtools.png" alt="devtools"
+      style="width: 60%;">
+
+    
+    </p>
+    </div>
+ <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img src="../styles/1200px-DOM-model.svg.png" alt="Notebook"
+        style="width:100%;"></p>
+    </div>
+  </div>
+  
+  
+    </div>
+
+    <footer id="myFooter">
+      <div class="w3-container w3-theme-l2 w3-padding-32">
+        <h4>&#129373; Technical Blog - JS Fundamentals</h4>
+      </div>
+  
+      <div class="w3-container w3-theme-l1">
+        <p> <a></a></p>
+      </div>
+    </footer>
+
+
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
