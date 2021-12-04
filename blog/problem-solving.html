@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Technical Blog - Problem-Solving</title>
+<link rel="icon" type="image/x-icon" href="../styles/kiwifruit.jpg">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../styles/dropdown Nav-Bar.css">
+<style>
+  html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", sans-serif;
+  }
+
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+  }
+</style>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <a href="../index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="../blog/Identity-Values.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Identity,
+      Strengths & Values</a>
+    <a href="../blog/Learning-Plan.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Learning Plan</a>
+    <a href="../blog/Emotional-Intelligence.html"
+      class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Emotional Intelligence</a>
+    <a href="../blog/Cultural Blog - Mindset.html"
+      class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white"> Mindset</a>
+    <div class="dropdown">
+      <button class="dropbtn">Technical Blogs
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+
+        <a href="../blog/Tech-Blog.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Classes vs. IDs</a>
+
+        <a href="../blog/javascript-dom.html"
+          class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">JS Fundamentals</a>
+        <a href="../blog/problem-solving.html"
+          class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white"> Problem Solving</a>
+
+      </div>
+    </div>
+
+
+
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+      id="myOverlay"></div>
+
+    <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+    <div class="w3-main" style="margin-left:80px">
+
+      <div class="w3-row w3-padding-64">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">My Approach to Problem Solving</h1>
+          <p>
+          <h3>What was the problem?</h3>
+
+          I encountered a problem when doing the JavaScript Kata: Manipulating Objects activity. The question that I
+          couldn’t get
+          past was - 7. Add a children property to terah and and use object literal notation to assign this variable to
+          an empty
+          object.<br><br>
+
+
+          <h3>What problem solving techniques did you use?</h3>
+
+          I looked at various videos online, tried googling the problem, then I gave up and moved onto something else.
+          The next
+          day I saw some people had posted on Slack about the same problem. I looked over all of their conversations and
+          tried
+          out various methods. Replit is great because you can try something out and immediately see if it’s worked or
+          not. I
+          eventually discovered that it mattered which ordered you put the code in. Even though the questions were
+          ordered it
+          didn’t necessarily mean that the code should be ordered in that way.<br><br>
+
+          <h3>How did you feel throughout the process?</h3>
+          It was a bit frustrating at first, but I knew I had plenty of time and could try it again tomorrow. I’d
+          already worked
+          my way up to question 7 so I knew I was on the right track. It was satisfying figuring out the answers, that
+          it matted
+          in which order the code was in.
+          <br><br>
+          <h3>What did you learn?</h3>
+          I already knew that the slack forum was helpful. I’ve actually found googling things not as useful as I
+          thought. It’s
+          always good to go back over a problem later. After staring at the screen for so long it just gets worse. It’s
+          best to
+          look at something with fresh eyes. If I was doing everything last minute that could become an issue because
+          you don’t
+          have the luxury of coming back to the problem later.
+          <br><br>
+
+
+          <h1 class="w3-text-teal">Reflect on how confident you feel using the problem solving techniques and process
+          </h1><br>
+
+
+          <h3>Pseudocode</h3>
+          When I did an introductory Python course we explored algorithms and flowcharts. I haven’t used a lot of Pseudocode yet
+          but I’m sure I’ll have to in the future. Getting more experience in JavaScript will definitely help during this
+          bootcamp. For the Python course I also added a lot of comments explaining what each part of the code is doing.
+
+          <br><br>
+          <h3>Trying something</h3>
+          Using Replit is really good for this strategy because you can instantly Run your code. I’ve done this a lot throughout
+          the Kata activities. When trying something I’d also look at an example code as a template.
+          <br><br>
+          <h3>Rubber ducky method</h3>
+          I haven’t really done this method a lot either. I feel like this method goes will with Pseudocode. Having a break and
+          going back to the problem is also useful, for rethinking and attacking it at a different angle. This method is useful
+          because you need to take into account how busy other people are.
+          <br><br>
+          <h3>Reading error messages</h3>
+          This is useful because it usually tells you the line number & VS code will underline things in red & display code
+          that isn’t formatted correctly.
+          <br><br>
+          <h3>Console.logging</h3>
+          Running a function or more is important. I sometimes don't always know what exactly to run though.
+          <br><br>
+          <h3>Googling</h3>
+          Always google. For JavaScript it's sometimes harder to find relevant information than initially thought. I feel that Python is easier to google 🤔 
+          <br><br>
+          <h3>Asking your peers for help</h3>
+          I did this a lot when completing a one year Technical Support Diploma. I enjoy learning collaboratively. I need to be mindful of people’s time though, especially
+          when in the workplace. Time’s Money $$$. I need to have a good crack at something first before bothering people.
+          <br><br>
+          <h3>Asking coaches for help</h3>
+          I’ve asked Emily, my facilitator for help a bunch. She’s been amazing. 
+          <br><br>
+          <h3>Improving your process with reflection</h3>
+          I guess you have to reflect on the problems that are a hardest to solve & have the biggest impact. Maybe meditation is
+          somehow useful. It’s meant to be good for everything. Chuck Norris probably does it… A bit of loop listening might help
+          too.
+
+          <br><br>
+
+
+
+
+
+          </p>
+        </div>
+        <div class="w3-third w3-container">
+          <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img src="../styles/rubberducky.jpg"
+              alt="web dev" style="width: 100%;"></p>
+          <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img src="../styles/problemSolving2.png"
+              alt="web dev" style="width: 100%;"></p>
+          <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img src="../styles/problemSolving.png"
+              alt="web dev" style="width: 100%;"></p>
+          <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img src="../styles/chuck norris.jpg"
+            alt="web dev" style="width: 100%;"></p>
+            <p class="w3-border w3-padding-large w3-padding-64 w3-center"><img src="../styles/problem solution.jpg"
+              alt="web dev" style="width: 100%;"></p>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+    <footer id="myFooter">
+      <div class="w3-container w3-theme-l2 w3-padding-32">
+        <h4>&#129373; Technical Blog - Problem-Solving</h4>
+      </div>
+
+
+
+
+  </div>
+
+  <script>
+
+  </script>
+
+</body>
+
+</html>

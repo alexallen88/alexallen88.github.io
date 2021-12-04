@@ -1,60 +1,77 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    
+  <head>
     <title>Alex's Technical Blog</title>
-    <link rel="icon" type="image/x-icon" href="../styles/kiwifruit.jpg">
-    <meta charset="UTF-8">
-    <link href="../styles/Tech-Blog.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <style>
+    <link rel="icon" type="image/x-icon" href="../styles/kiwifruit.jpg" />
+    <meta charset="UTF-8" />
+    <link href="../styles/Tech-Blog.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/dropdown.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+  </head>
 
-    </style>
-</head>
-
-<body>
- <div class="topnav">
-          <a class="active" href="../index.html">Home</a>
-          <a href="../blog/Identity-Values.html">Identity, Strengths & Values</a>
-          <a href="../blog/Learning-Plan.html">Learning Plan</a>
-          <a href="../blog/Tech-Blog.html">Technical Blog</a>
-          <a href="../blog/Emotional-Intelligence.html">Emotional Intelligence</a>
-          <a href="../blog/javascript-dom.html">Technical Blog - JS Fundamentals</a>
-        </div>
-
-
-    <h2 style="font-size: 40pt;text-align: center;">Web-Development - Technical Learning</h2>
-
-
-    <div class="container">
-        <img src="../styles/3b_Technical_Support__.jpg" alt="Notebook"
-            style="width:100%;">
-        <div class="content">
-            <h1 style="color: rgb(7, 7, 7);background-color: whitesmoke;">What are the best practices associated with
-                using classes vs. ids?</h1>
-            <p style="color: rgb(7, 7, 7);background-color: whitesmoke;font-size: 15pt;">
-
-                <strong>CLASSES</strong><br>
-                The HTML class attribute is used to specify a class for an HTML element. Multiple HTML elements can share the same
-                class.The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript
-                to access and manipulate elements with the specific class name.
-                <br>
-                <br>
-                <strong>IDs</strong><br>
-                The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the
-                same id in an HTML document.The id attribute specifies a unique id for an HTML element. The value of the id attribute
-                must be unique within the HTML document.
-                
-                The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to
-                access and manipulate the element with the specific id.
-                
-                The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly
-                braces {}
-            </p>
-        </div>
+  <body>
+    <div class="topnav">
+      <a class="active" href="../index.html">Home</a>
+      <a href="../blog/Identity-Values.html">Identity, Strengths & Values</a>
+      <a href="../blog/Learning-Plan.html">Learning Plan</a>
+      <a href="../blog/Emotional-Intelligence.html">Emotional Intelligence</a>
+      <a href="../blog/Cultural Blog - Mindset.html">Mindset</a>
     </div>
 
-</body>
+    <div class="dropdown" style="float:left;">
+      <button class="dropbtn">TECHNICAL BLOGS</button>
+      <div class="dropdown-content" style="left:0;">
+        <a href="../blog/javascript-dom.html">JS Fundamentals</a>
+        <a href="../blog/problem-solving.html">Problem Solving</a>
+        <a href="../blog/Tech-Blog.html">Classes vs. IDs</a>
+      </div>
+    </div>
 
+    <h2 style="font-size: 40pt; text-align: center">
+      Web-Development - Technical Learning
+    </h2>
+
+    <div class="container">
+      <img
+        src="../styles/3b_Technical_Support__.jpg"
+        alt="Notebook"
+        style="width: 100%"
+      />
+      <div class="content">
+        <h1 style="color: rgb(7, 7, 7); background-color: whitesmoke">
+          What are the best practices associated with using classes vs. ids?
+        </h1>
+        <p
+          style="
+            color: rgb(7, 7, 7);
+            background-color: whitesmoke;
+            font-size: 15pt;
+          "
+        >
+          <strong>CLASSES</strong><br />
+          The HTML class attribute is used to specify a class for an HTML
+          element. Multiple HTML elements can share the same class.The class
+          attribute is often used to point to a class name in a style sheet. It
+          can also be used by a JavaScript to access and manipulate elements
+          with the specific class name.
+          <br />
+          <br />
+          <strong>IDs</strong><br />
+          The HTML id attribute is used to specify a unique id for an HTML
+          element. You cannot have more than one element with the same id in an
+          HTML document.The id attribute specifies a unique id for an HTML
+          element. The value of the id attribute must be unique within the HTML
+          document. The id attribute is used to point to a specific style
+          declaration in a style sheet. It is also used by JavaScript to access
+          and manipulate the element with the specific id. The syntax for id is:
+          write a hash character (#), followed by an id name. Then, define the
+          CSS properties within curly braces {}
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
